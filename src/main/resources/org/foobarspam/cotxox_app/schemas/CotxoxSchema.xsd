@@ -21,10 +21,19 @@
     	</sequence>
     </complexType>
        
-    <simpleType name="Conductor">
-    	<restriction base="string">
-      		<pattern value="\\b^[\p{L}\s.’\-,]+$\\b"/>
-   		</restriction>
+    <complexType name="Conductor">
+    	<sequence>
+    		<element name="nombre" type="string"></element>
+    		<element name="matricula" type="string"></element>
+    		<element name="modelo" type="string"></element>
+    		<element name="valoraciones" type="emt:valoracionesList"></element>
+    		<element name="ocupado" type="boolean"></element>
+    		<element name="valoracionMedia" type="double"></element>
+    	</sequence>
+ 	</complexType>
+ 	
+ 	<simpleType name="valoracionesList">
+ 		<list itemType="byte"/>
  	</simpleType>
     
 </schema>

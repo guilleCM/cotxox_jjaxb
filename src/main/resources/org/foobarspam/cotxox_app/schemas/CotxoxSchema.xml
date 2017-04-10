@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emt:carrera xmlns:emt="https://api.mobipalma.mobi/docs/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://api.mobipalma.mobi/docs/ CotxoxSchema.xsd ">
+  <tarjetaCredito>tarjetaCredito</tarjetaCredito>
+  <origen>origen</origen>
+  <destino>destino</destino>
+  <distancia>0.0</distancia>
+  <tiempoEsperadoMinutos>0</tiempoEsperadoMinutos>
+  <tiempoCarrera>0</tiempoCarrera>
+  <costeEsperado>0.0</costeEsperado>
+  <costeTotal>0.0</costeTotal>
+  <propina>0</propina>
+  <conductor>
+    <nombre>nombre</nombre>
+    <matricula>matricula</matricula>
+    <modelo>modelo</modelo>
+    <valoraciones>valoraciones</valoraciones>
+    <ocupado>true</ocupado>
+    <valoracionMedia>0.0</valoracionMedia>
+  </conductor>
+</emt:carrera>
