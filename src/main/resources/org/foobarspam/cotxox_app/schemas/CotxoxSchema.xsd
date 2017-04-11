@@ -33,7 +33,7 @@
  	</complexType>
  	
  	<simpleType name="valoracionesList">
- 		<list itemType="byte"/>
+	 	   <list itemType="byte"/>
  	</simpleType>
     
 </schema>
